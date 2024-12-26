@@ -57,6 +57,8 @@ nav > a:hover{
 
 main {
     background-color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     min-width: 300px;
     max-width: 1000px;

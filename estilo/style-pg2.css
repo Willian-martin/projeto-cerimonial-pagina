@@ -9,16 +9,25 @@ body{
     background-color: black;
 }
 header{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3vw;
+    padding: 100px;
+    background-position:center;
+    background-size: cover;
+    background-image: url('../imagens/cadeiras.jpg') ;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px white;
+
 }
 div.galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 3em;
+    gap: 1em;
     padding: 0 2vw;
 }
 
@@ -38,3 +47,12 @@ section.fotos:hover{
     height: 100%;
     object-fit: cover;
  }
+  footer{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+    color: black;
+    
+  }
