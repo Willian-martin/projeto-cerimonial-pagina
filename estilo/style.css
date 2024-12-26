@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root {
+    --cor1:#0e30305a;
+    --cor2:#2A9797;
+    --cor3:#1435357d;
+    --cor4:#143535;
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3vw;
+    padding: 100px;
+    background-position:center;
+    background-size: cover;
+    background-image: url('../imagens/cadeiras.jpg') ;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+header > p{
+    font-size:30px;
+    margin-top: 50px;
+}
+
+nav{
+    background-color: var(--cor1);
+   padding: 5px;
+   box-shadow: 14px 2px 15px rgba(0, 0, 0, 0.619);
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor4);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url('../imagens/noivos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+
+main h1{
+    text-align: center;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.26), white) ;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+main p {
+    background-color: rgba(255, 255, 255, 0.244);
+    box-shadow: 1px 1px 0px black;
+    color: black;
+    font-size: 1em;
+    text-align: justify;
+    margin-top: 10px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+section > p {
+    background-color: rgba(255, 255, 255, 0.244);
+    display: inline-block;
+    padding: 5px;
+    box-shadow: 1px 1px 0px black;
+    color: black;
+    margin-bottom: 20em;
+    font-size: 1.2em;
+
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+    color: white;
+    
+}
