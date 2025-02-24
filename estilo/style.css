@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 :root {
-    --cor1:#0e30305a;
+    --cor1:#0e303000;
     --cor2:#2A9797;
     --cor3:#1435357d;
     --cor4:#143535;
@@ -14,18 +14,23 @@
 
 body {
     background-color: var(--cor3);
+    background-image: url(/imagens/pexels-el-evangelista-171946-1070345.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 
 header {
     color: rgb(255, 255, 255);
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     font-variant: small-caps;
     font-size: 3vw;
     padding: 100px;
     background-position:center;
     background-size: cover;
-    background-image: url('../imagens/cadeiras.jpg') ;
+    background-color: var(--cor1);
     text-shadow: 1px 1px 1px black;
 
 }
@@ -36,27 +41,28 @@ header > p{
 }
 
 nav{
-    background-color: var(--cor1);
-   padding: 5px;
-   box-shadow: 14px 2px 15px rgba(0, 0, 0, 0.619);
+     background-color: rgba(0, 0, 0, 0);
+     padding: 5px;
+     text-align: right;
+    
 }
 nav > a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px;
-    font-size: 0.8em;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: bolder;
     transition-duration: 0.5s;
+
 }
 
 nav > a:hover{
-    background-color: var(--cor4);
-    color: rgb(0, 0, 0);
+    color: var(--cor2);
     border-radius: 2px;
 }
 
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -64,25 +70,20 @@ main {
     max-width: 1000px;
     padding: 20px;
     margin-bottom: 20px;
-    background-image: url('../imagens/noivos.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:  center;
+   
 }
 
 main h1{
+    color: white;
     text-align: center;
     padding-bottom: 10px;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.26), white) ;
     font-weight: bolder;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px black;
+    margin-top: 50px;
 }
 
 main p {
-    background-color: rgba(255, 255, 255, 0.244);
-    box-shadow: 1px 1px 0px black;
-    color: black;
+    color: white;
     font-size: 1em;
     text-align: justify;
     margin-top: 10px;
@@ -92,14 +93,26 @@ main p {
 }
 
 section > p {
-    background-color: rgba(255, 255, 255, 0.244);
     display: inline-block;
     padding: 5px;
-    box-shadow: 1px 1px 0px black;
-    color: black;
+    color: white;
     margin-bottom: 20em;
-    font-size: 1.2em;
+    font-size: 1.3em;
 
+}
+a {
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+footer > p {
+    color: black;
 }
 footer{
     background-color: var(--cor1);
@@ -107,6 +120,5 @@ footer{
     padding: 5px;
     font-size: 1em;
     margin-top: 20px;
-    color: white;
-    
+    color: white;   
 }
