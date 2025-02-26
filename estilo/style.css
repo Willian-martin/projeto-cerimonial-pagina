@@ -6,15 +6,15 @@
     font-family: 'Times New Roman', Times, serif;
 }
 :root {
-    --cor1:#0e303000;
-    --cor2:#2A9797;
-    --cor3:#1435357d;
-    --cor4:#143535;
+    --cor1:#ffffff;
+    --cor2:#000000;
+    --cor3:#D3D3D3;
+    --cor4:#F5F5DC;
+    --cor5:#A9C0C9;
 }
 
 body {
-    background-color: var(--cor3);
-    background-image: url(/imagens/pexels-el-evangelista-171946-1070345.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,29 +22,28 @@ body {
 
 
 header {
-    color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
     text-align: center;
     font-weight: bold;
     font-variant: small-caps;
     font-size: 3vw;
-    padding: 100px;
+    padding: 50px;
     background-position:center;
     background-size: cover;
     background-color: var(--cor1);
     text-shadow: 1px 1px 1px black;
-
 }
+
 
 header > p{
     font-size:30px;
-    margin-top: 50px;
 }
 
 nav{
      background-color: rgba(0, 0, 0, 0);
      padding: 5px;
      text-align: right;
-    
+      background-image: linear-gradient(to right, black, white);
 }
 nav > a {
     color: rgb(0, 0, 0);
@@ -74,7 +73,7 @@ main {
 }
 
 main h1{
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 10px;
     font-weight: bolder;
@@ -83,7 +82,7 @@ main h1{
 }
 
 main p {
-    color: white;
+    color: black;
     font-size: 1em;
     text-align: justify;
     margin-top: 10px;
@@ -95,7 +94,7 @@ main p {
 section > p {
     display: inline-block;
     padding: 5px;
-    color: white;
+    color: blac;
     margin-bottom: 20em;
     font-size: 1.3em;
 
