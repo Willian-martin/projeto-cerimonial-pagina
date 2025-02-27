@@ -8,13 +8,14 @@
 :root {
     --cor1:#ffffff;
     --cor2:#000000;
-    --cor3:#D3D3D3;
-    --cor4:#F5F5DC;
-    --cor5:#A9C0C9;
+    --cor3:#333333;
+    --cor4:#f7cac9;
+    --cor5:#d3d3d3;
 }
 
 body {
-    background-color: white;
+    background-color: var(--cor1);
+    color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +23,7 @@ body {
 
 
 header {
-    color: rgb(15, 15, 15);
+    color: var(--cor1);
     text-align: center;
     font-weight: bold;
     font-variant: small-caps;
@@ -30,7 +31,7 @@ header {
     padding: 50px;
     background-position:center;
     background-size: cover;
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     text-shadow: 1px 1px 1px black;
 }
 
@@ -40,15 +41,15 @@ header > p{
 }
 
 nav{
-     background-color: rgba(0, 0, 0, 0);
-     padding: 5px;
+     background-color:#a68e037a;
+     padding: 10px;
      text-align: right;
-      background-image: linear-gradient(to right, black, white);
+    
 }
 nav > a {
-    color: rgb(0, 0, 0);
+    color: var(--cor1);
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     font-size: 1em;
     font-weight: bolder;
     transition-duration: 0.5s;
@@ -61,7 +62,7 @@ nav > a:hover{
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: var(--cor1);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -84,11 +85,35 @@ main h1{
 main p {
     color: black;
     font-size: 1em;
+    padding: 40px;
     text-align: justify;
     margin-top: 10px;
     text-indent: 30px;
     line-height: 2em;
     font-size: 1.2em;
+}
+#container {
+    max-width: 800px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Garante que o texto fique à esquerda e a imagem à direita */
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    text-align: center;
+}
+
+.img-lado {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px; /* Deixa a imagem com cantos arredondados */
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.455);
+}
+
+section{
+    padding: 40px;
 }
 
 section > p {
@@ -106,7 +131,8 @@ a {
 }
 
 a:hover {
-    color: var(--cor2);
+    color: var(--cor1);
+    background-color: var(--cor1);
     text-decoration: underline;
 }
 
